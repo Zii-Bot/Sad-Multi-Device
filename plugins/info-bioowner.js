@@ -1,24 +1,24 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `*───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Sad-Bot
-*✉️ Nama RL* : Fahri
+*💌 Nama* : Wins-Bot
+*✉️ Nama RL* : Fadil
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 10 Juni 2007
-*🎨 Umur* : 15
+*⏰ Tanggal lahir* : 7 Januari 200*
+*🎨 Umur* : 1*
 *🧮 Kelas* : 9
-*🧩 Hobby* : Nonton Hanime, Chatting, Recode script bot
-*💬 Sifat* : Idiot, Tidak Ramah, Kanjut, Prik, Pedofil
-*🗺️ Tinggal* : Indo, Riau, Indragiri Hulu, Air Molek
-*❤️ Suka* : warnah kuning & biru, Hanime, waifu, loli, trap, furry, kucing
+*🧩 Hobby* : Nonton anime, Chatting, Recode script bot
+*💬 Sifat* : Dingin, Tidak Ramah, Kanjut, Prik, Pendiam
+*🗺️ Tinggal* : Indo, JawaBarat, Pantai Pangandaran
+*❤️ Suka* : warnah kuning & biru, anime, waifu, loli, trap, furry, kucing
 *💔 Benci* : autis, anak epep, seleb
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @bot_whangsaf
-*🇫  Facebook* : Adison Fahri
-*🏮 Chanel Youtube* : Papah-Chan
-*🐈 Github:* FahriAdison
+*📷 instagran* : @ziistore_id
+*🇫  Facebook* : -
+*🏮 Chanel Youtube* : ziistore
+*🐈 Github:* Zii-Bot
 
 `
 conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
